@@ -1,11 +1,9 @@
 {
   "development": {
-    "username": "admin",
-    "password": "123",
-    "database": "blog",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres"
-  },
+    },
+    
   "test": {
     "username": "root",
     "password": null,
